@@ -7,8 +7,10 @@
     "test": "echo \"No tests yet...\""
   },
   "dependencies": {
-    "@azure/functions": "^4.0.0"
+    "@azure/functions": "^4.0.0",
+    "@azure/identity": "^4.10.1",
+    "@azure/msal-node": "^2.16.2",
+    "@microsoft/microsoft-graph-client": "^3.0.7"
   },
-  "devDependencies": {},
   "main": "src/{index.js,functions/*.js}"
 }

@@ -1,4 +1,6 @@
 const { app } = require('@azure/functions');
+const { Client } = require('@microsoft/microsoft-graph-client');
+const { DefaultAzureCredential, ClientSecretCredential } = require('@azure/identity');
 
 app.http('message', {
     methods: ['GET', 'POST'],
